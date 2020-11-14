@@ -1,0 +1,16 @@
+{
+  "name": "thread-count",
+  "version": "0.1.0",
+  "description": "",
+  "main": "lib/index.js",
+  "author": "YuriyVorobyov1333 <y.vorobyov@dunice.net>",
+  "license": "MIT",
+  "dependencies": {
+    "neon-cli": "^0.4.0",
+    "num-cpus": "^1.1.0"
+  },
+  "scripts": {
+    "install": "neon build --release",
+    "build": "neon build --release"
+  }
+}
